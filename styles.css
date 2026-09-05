@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 100px;
 }
 
 .first-section{
@@ -67,6 +68,7 @@ button{
     margin: 12px 0px;
     padding: 8px;
     width: 100px;
+    border-color: #E5E7EB;
 }
 
 .intro{
@@ -95,7 +97,6 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 24px 0px;
 }
 
 .illustrations{
@@ -118,20 +119,49 @@ button{
 .third-section{
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 100px 200px;
-    margin-top: 48px;
-    width: 1000px;
+    padding: 100px 400px;
+    /* width: 1000px; */
 }
 
 .lyrics{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    width: 600px;
 }
 
 .lyricist{
     font-size: 24px;
     font-weight: 900;
-    margin-top: 16px;
+    margin-top: 24px;
     text-align: right;
+}
+
+.fourth-section{
+    display: flex;
+    background-color: #453250;
+    justify-content: space-between;
+    width: 1000px;
+    box-sizing: border-box;
+    color:#E5E7EB;
+    font-size: 12px;
+    padding: 48px 100px;
+    border-radius: 12px;
+}
+
+.fourth-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.styled{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.fourth-section button{
+    color: black;
+    background-color: #E5E7EB;
+    border-radius: 6px;
 }
