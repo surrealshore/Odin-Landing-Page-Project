@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 84px;
 }
 
 .first-section{
@@ -45,6 +45,7 @@ ul{
 .logo{
     font-size: 24px;
     color:#F9FAF8;
+    font-style: italic;
 }
 
 .main-text{
@@ -61,13 +62,14 @@ ul{
 }
 
 button{
-    background-color: #3882F6;
-    color: #E5E7EB;
+    color: black;
+    background-color: #E5E7EB;
+    border-radius: 6px;
     font-size: 18px;
     font-weight: 700;
     margin: 12px 0px;
     padding: 8px;
-    width: 100px;
+    width: 200px;
     border-color: #E5E7EB;
 }
 
@@ -97,6 +99,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 64px;
 }
 
 .illustrations{
@@ -114,6 +117,8 @@ button{
     display: flex;
     flex-direction: column;
     width: 200px;
+    gap: 18px;
+    text-align: center;
 }
 
 .third-section{
@@ -139,7 +144,7 @@ button{
 
 .fourth-section{
     display: flex;
-    background-color: #453250;
+    background-color: #656167;
     justify-content: space-between;
     width: 1000px;
     box-sizing: border-box;
@@ -164,4 +169,13 @@ button{
     color: black;
     background-color: #E5E7EB;
     border-radius: 6px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    padding: 32px 200px;
+    width:1000px;
 }
