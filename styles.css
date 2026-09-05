@@ -169,6 +169,7 @@ button{
     color: black;
     background-color: #E5E7EB;
     border-radius: 6px;
+    width: 160px;
 }
 
 .footer{
